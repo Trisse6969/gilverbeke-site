@@ -1,13 +1,12 @@
 ---
+title: About me
 permalink: /
-title: "About me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-I am a linguist at the Department of Linguistics of Ghent University, where I am a member of the research groups GLLAS (Ghent Language Learning and Assessment) and MULTIPLES (Research Centre for Multilingualism and Language Practices in Society). My research interests include second language acquisition, speech perception, phonetics and phonology.
+I am a TEST linguist at the Department of Linguistics of Ghent University, where I am a member of the research groups GLLAS (Ghent Language Learning and Assessment) and MULTIPLES (Research Centre for Multilingualism and Language Practices in Society). My research interests include second language acquisition, speech perception, phonetics and phonology.
 
 In my doctoral research, funded by the Research Foundation Flanders (FWO) and supervised by Prof. dr. Ellen Simon and Prof. dr. Holger Mitterer, I examine how phonetic variation in native and non-native English accents affects intelligibility and spoken word recognition for non-native listeners of English.
 
@@ -15,10 +14,11 @@ Before that, I worked as a predoctoral researcher on a project on the comprehens
 
 During my PhD, I was a visiting researcher at the MARCS Institute for Brain, Behaviour and Development (Western Sydney University) and at Universitat Pompeu Fabra in Barcelona.
 
-Research interests
-------
-* Second language acquisition
-* Speech perception and production
-* Phonetics and phonology
-* Psycholinguistics
-* Language variation
+## Research interests
+
+- Second language acquisition
+- Speech perception and production
+- Phonetics and phonology
+- Psycholinguistics
+- Language variation
+
