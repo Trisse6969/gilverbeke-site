@@ -1,8 +1,6 @@
 ---
 title: "Perceiving and identifying vowels in regional accents of English: Evidence from Dutch- and Spanish-speaking L2 listeners"
-collection: publications
 category: manuscripts
-permalink: /publication/2026-01-01-vowels-regional-accents-dutch-spanish
 date: 2026-01-01
 venue: "Journal of Phonetics"
 paperurl: "https://doi.org/10.1016/j.wocn.2026.101499"

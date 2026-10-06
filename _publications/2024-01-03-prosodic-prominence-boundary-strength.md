@@ -1,8 +1,6 @@
 ---
 title: "The interplay between prosodic prominence and boundary strength in the production of English checked steady-state vowels"
-collection: publications
 category: manuscripts
-permalink: /publication/2024-01-03-prosodic-prominence-boundary-strength
 date: 2024-01-03
 venue: "English Text Construction"
 paperurl: "https://doi.org/10.1075/etc.25005.ver"

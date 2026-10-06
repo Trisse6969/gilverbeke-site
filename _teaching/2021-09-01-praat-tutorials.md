@@ -1,8 +1,6 @@
 ---
 title: "English Linguistics: Phonology (Ba2)"
-collection: teaching
 type: "Tutorials and lectures"
-permalink: /teaching/2021-09-01-praat-tutorials
 venue: "Ghent University"
 date: 2021-09-01
 location: "Ghent, Belgium"

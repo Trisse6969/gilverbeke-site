@@ -1,8 +1,6 @@
 ---
 title: "Listening to accents: Comprehensibility, accentedness and intelligibility of native and non-native English speech"
-collection: publications
 category: manuscripts
-permalink: /publication/2023-01-01-listening-to-accents
 date: 2023-01-01
 venue: "Lingua"
 paperurl: "https://doi.org/10.1016/j.lingua.2023.103572"

@@ -1,0 +1,159 @@
+# Pages CMS configuration (https://pagescms.org/docs/configuration/)
+# Maps the site's content to editing forms. Theme, layout and _config.yml are deliberately not editable here.
+
+media:
+  - name: images
+    label: Images
+    input: images
+    output: /images
+    categories: [image]
+    rename: safe
+  - name: files
+    label: Files (PDFs)
+    input: files
+    output: /files
+    categories: [document]
+    rename: safe
+
+content:
+  - name: about
+    label: About page
+    type: file
+    path: _pages/about.md
+    fields:
+      - { name: title, label: Page title, type: string, required: true }
+      - { name: permalink, type: string, hidden: true, default: "/" }
+      - { name: author_profile, type: boolean, hidden: true, default: true }
+      - { name: redirect_from, type: string, list: true, hidden: true, default: ["/about/", "/about.html"] }
+      - name: body
+        label: Text
+        type: rich-text
+        options: { media: images }
+
+  - name: profile
+    label: Profile (sidebar)
+    type: file
+    path: _data/profile.yml
+    format: yaml
+    fields:
+      - { name: name, label: Name, type: string, required: true }
+      - name: avatar
+        label: Photo
+        type: image
+        description: A square-ish portrait works best; it is shown as a circle.
+        options: { media: images }
+      - { name: bio, label: Short bio (under your name), type: string }
+      - { name: pronouns, label: Pronouns, type: string }
+      - { name: employer, label: Employer, type: string }
+      - { name: location, label: Location, type: string }
+      - { name: email, label: Email, type: string }
+      - { name: uri, label: Website / staff page (full URL), type: string }
+      - { name: googlescholar, label: Google Scholar (full URL), type: string }
+      - { name: orcid, label: ORCID (full URL), type: string }
+      - { name: researchgate, label: ResearchGate (full URL), type: string }
+      - { name: linkedin, label: LinkedIn (username only, the part after linkedin.com/in/), type: string }
+
+  - name: publications
+    label: Publications
+    type: collection
+    path: _publications
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, category, date]
+      primary: title
+      sort: [date, title]
+      default: { sort: date, order: desc }
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - name: category
+        label: Type
+        type: select
+        required: true
+        default: manuscripts
+        options:
+          values:
+            - { value: manuscripts, label: Journal article }
+            - { value: books, label: Book chapter }
+            - { value: thesis, label: Doctoral dissertation }
+      - name: date
+        label: Date
+        type: date
+        required: true
+        description: Only the year is shown on the site. Within a year, later dates are listed first.
+      - { name: venue, label: Journal or book, type: string }
+      - { name: paperurl, label: Link to the paper (DOI link or PDF), type: string, description: "For example https://doi.org/10.1016/j.lingua.2023.103572" }
+      - name: citation
+        label: Full citation
+        type: text
+        description: "Shown under the title. <i>text</i> makes text italic, &amp; is an ampersand."
+      - { name: slidesurl, label: Link to slides (optional), type: string }
+      - name: body
+        label: Abstract and extra information
+        type: rich-text
+        options: { media: files }
+
+  - name: talks
+    label: Talks
+    type: collection
+    path: _talks
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, type, date]
+      primary: title
+      sort: [date, title]
+      default: { sort: date, order: desc }
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - name: type
+        label: Type
+        type: select
+        required: true
+        default: Paper presentation
+        options:
+          values: [Paper presentation, Poster presentation, Invited talk, Workshop, Outreach]
+      - { name: date, label: Date, type: date, required: true }
+      - { name: venue, label: Event or venue, type: string, required: true }
+      - name: location
+        label: Location
+        type: string
+        description: "City, Country. Used for the talk map."
+      - name: body
+        label: Description, slides, links (optional)
+        type: rich-text
+        options: { media: files }
+
+  - name: teaching
+    label: Teaching
+    type: collection
+    path: _teaching
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, venue, date]
+      primary: title
+      sort: [date, title]
+      default: { sort: date, order: desc }
+    fields:
+      - { name: title, label: Course, type: string, required: true }
+      - { name: type, label: "Role (for example Guest lecture)", type: string }
+      - { name: venue, label: University, type: string }
+      - { name: date, label: Date (start), type: date, required: true }
+      - { name: location, label: Location, type: string }
+      - name: body
+        label: Description
+        type: rich-text
+
+  - name: cv
+    label: CV page
+    type: file
+    path: _pages/cv.md
+    fields:
+      - { name: title, label: Page title, type: string, required: true }
+      - { name: layout, type: string, hidden: true, default: cv }
+      - { name: permalink, type: string, hidden: true, default: "/cv/" }
+      - { name: author_profile, type: boolean, hidden: true, default: true }
+      - { name: redirect_from, type: string, list: true, hidden: true, default: ["/resume"] }
+      - name: body
+        label: CV text
+        type: rich-text
+        description: Publications, talks and teaching are added below this text automatically.
+        options: { media: files }

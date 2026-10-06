@@ -1,13 +1,11 @@
 ---
-layout: archive
+layout: cv
 title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
 
 A full CV is available on my [Ghent University profile](https://research.flw.ugent.be/en/gil.verbeke).
 
@@ -39,24 +37,6 @@ Grants and fellowships
 * FWO Grant for a Short Study Visit Abroad, 2023
 * MARCS International Visiting Scholarship, Western Sydney University, 2023
 * FWO PhD Fellowship Fundamental Research, 2022 to 2026
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
 
 Service
 ======

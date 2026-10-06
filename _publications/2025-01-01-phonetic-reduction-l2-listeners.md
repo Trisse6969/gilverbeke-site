@@ -1,8 +1,6 @@
 ---
 title: "Phonetic reduction in native and non-native English speech: Assessing the intelligibility for L2 listeners"
-collection: publications
 category: manuscripts
-permalink: /publication/2025-01-01-phonetic-reduction-l2-listeners
 date: 2025-01-01
 venue: "Bilingualism: Language and Cognition"
 paperurl: "https://doi.org/10.1017/S1366728925000021"

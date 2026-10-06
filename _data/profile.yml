@@ -1,0 +1,14 @@
+# Sidebar profile, edited through Pages CMS ("Profile").
+# Any key from the author block in _config.yml can be added here.
+name: "Gil Verbeke"
+avatar: "/images/gil-verbeke.jpg"
+pronouns: ""
+bio: "PhD researcher in linguistics"
+location: "Ghent, Belgium"
+employer: "Ghent University"
+uri: "https://research.flw.ugent.be/en/gil.verbeke"
+email: "gil.verbeke@ugent.be"
+googlescholar: "https://scholar.google.com/citations?user=yfRLkG4AAAAJ"
+orcid: "https://orcid.org/0000-0002-9491-9557"
+researchgate: "https://www.researchgate.net/profile/Gil-Verbeke"
+linkedin: "gil-verbeke-bb23b2153"

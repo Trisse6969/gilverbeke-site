@@ -1,8 +1,6 @@
 ---
 title: "Perceptie van een anderstalig accent: Een experimentele studie naar de perceptieve aanpassing aan een exogeen geaccentueerd Nederlands klinkercontrast"
-collection: publications
 category: manuscripts
-permalink: /publication/2024-01-01-perceptie-van-een-anderstalig-accent
 date: 2024-01-01
 venue: "Handelingen: Koninklijke Zuid-Nederlandse Maatschappij voor Taal- en Letterkunde en Geschiedenis"
 paperurl: "https://doi.org/10.21825/kzm.90450"

@@ -1,0 +1,22 @@
+---
+layout: archive
+---
+{% comment %}CV page: the editable text (from _pages/cv.md, edited in Pages CMS) followed by
+lists generated from the publications, talks and teaching collections.{% endcomment %}
+{% include base_path %}
+{{ content }}
+
+<h1>Publications</h1>
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+<h1>Talks</h1>
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
+
+<h1>Teaching</h1>
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>

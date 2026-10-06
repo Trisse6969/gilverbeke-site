@@ -1,8 +1,6 @@
 ---
 title: "Modeling monophthongal versus diphthongal /a\u026a/ in sung vocal performance with interpretable machine learning"
-collection: publications
 category: manuscripts
-permalink: /publication/2026-01-02-monophthongal-diphthongal-ai-singing
 date: 2026-01-02
 venue: "The Journal of the Acoustical Society of America"
 paperurl: "https://doi.org/10.1121/10.0044380"

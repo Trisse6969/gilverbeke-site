@@ -1,8 +1,6 @@
 ---
 title: "Perception of English vowels across regional accents by Catalan-Spanish bilinguals"
-collection: publications
 category: manuscripts
-permalink: /publication/2026-01-03-english-vowels-catalan-spanish
 date: 2026-01-03
 venue: "JASA Express Letters"
 paperurl: "https://doi.org/10.1121/10.0044333"
