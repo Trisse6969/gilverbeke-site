@@ -3,4 +3,19 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
+<!-- Open links to other sites, and uploaded files (PDFs in /files/), in a new tab -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var url;
+      try { url = new URL(link.getAttribute("href"), window.location.href); } catch (e) { return; }
+      if (url.protocol !== "http:" && url.protocol !== "https:") return;
+      if (url.hostname !== window.location.hostname || url.pathname.indexOf("/files/") === 0) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener");
+      }
+    });
+  });
+</script>
+
 <!-- end custom footer snippets -->
