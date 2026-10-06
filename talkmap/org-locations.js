@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Segmental variation in native and non-native accents: Assessing the intelligibility for L2 learners of English<br />LOT Winter School 2025; Nijmegen, The Netherlands",
-    51.8425749,
-    5.8389606
+    51.8474946,
+    5.8637771
   ],
   [
     "Perception of vowel variation in regional accents of English by Dutch-speaking L2 listeners<br />New Sounds 2025; Toronto, Canada",
