@@ -11,14 +11,15 @@ A full CV is available on my [Ghent University profile](https://research.flw.uge
 
 Education
 ======
-* PhD in Linguistics, Ghent University (since 2021)
+* PhD in Linguistics, Ghent University, 2026
+  * Dissertation: *Perceiving and processing native and non-native accents of English: Evidence from L2 listeners*. Supervisors: Prof. dr. Ellen Simon and Prof. dr. Holger Mitterer
 * Master of Linguistics and Literature: Dutch-English, Ghent University, 2021 (summa cum laude)
 * Erasmus exchange, English and General Linguistics, King's College London, 2019 to 2020
 * Bachelor of Linguistics and Literature: Dutch-English, Ghent University, 2020 (magna cum laude)
 
 Academic positions
 ======
-* Doctoral Researcher, Ghent University, November 2022 to present
+* Doctoral Researcher, Ghent University, November 2022 to October 2026
   * FWO PhD Fellowship Fundamental Research. Supervisors: Prof. dr. Ellen Simon and Prof. dr. Holger Mitterer
 * Predoctoral Researcher, Ghent University, October 2021 to September 2022
   * Supervisor: Prof. dr. Ellen Simon
